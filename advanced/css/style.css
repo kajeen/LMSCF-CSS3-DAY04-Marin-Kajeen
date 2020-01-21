@@ -9,7 +9,7 @@ body {
 header {
   display: flex;
   font-size: 4rem;
-  color: gray; }
+  color: lightblue; }
 
 main {
   display: flex;
@@ -25,23 +25,24 @@ main {
 @media screen and (max-width: 576px) {
   #container {
     width: 100%;
-    margin: 10px; }
+    margin: 0;
+    padding: 0; }
 
   header {
     display: flex;
-    font-size: 2rem;
-    color: gray; }
+    font-size: 2rem; }
 
   main {
     display: block;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    font-size: 1.4rem; }
 
   .photo {
     width: 100%; }
 
   #logoarea {
-    width: 150px; }
+    width: 130px; }
 
   #logoarea img {
     width: 100%; } }
@@ -52,8 +53,7 @@ main {
 
   header {
     display: flex;
-    font-size: 2.6rem;
-    color: gray; }
+    font-size: 2.6rem; }
 
   main {
     display: flex;
