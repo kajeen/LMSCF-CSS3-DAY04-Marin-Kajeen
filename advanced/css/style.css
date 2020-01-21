@@ -25,7 +25,7 @@ main {
 @media screen and (max-width: 576px) {
   #container {
     width: 100%;
-    margin: 0; }
+    margin: 10px; }
 
   header {
     display: flex;
@@ -33,13 +33,38 @@ main {
     color: gray; }
 
   main {
-    display: block; }
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center; }
 
   .photo {
     width: 100%; }
 
   #logoarea {
     width: 150px; }
+
+  #logoarea img {
+    width: 100%; } }
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  #container {
+    width: 100%;
+    margin: 10px; }
+
+  header {
+    display: flex;
+    font-size: 2.6rem;
+    color: gray; }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+
+  .photo {
+    width: 45%; }
+
+  #logoarea {
+    width: 200px; }
 
   #logoarea img {
     width: 100%; } }
