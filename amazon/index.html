@@ -13,6 +13,7 @@
 
 		.container {
 			width: 1200px;
+			margin: 0 auto;
 		}
 
 		header {
@@ -88,7 +89,7 @@
 		.personalized {
 			color: #cccccc;
 			font-weight: bold;
-			font-size: 10px;
+			font-size: 12px;
 		}
 
 		.menuname {
@@ -115,19 +116,46 @@
 
 		.promoBoxWide {
 			background-color: white;
-			width: 95%;
+			width: 98%;
 			padding: 10px;
-			display: flex;
-			height: 150px;
-			flex-wrap: ;
+			height: 260px;
+			margin: 5px;
 		}
 
 		.promocontent {
-			width: 340px;
+			height: 240px;
+			float: left;
+			padding: 5px;
 		}
 
 		.promocontent img {
+			height:  100%;
+		}
+
+		.promoflex{
+			display: flex;
+		}
+		.promoBoxSquare{
+			width: 30%;
+			background-color: white;
+			margin: 1%;
+			padding: 10px;
+		}
+		.promoBoxSquare img{
 			width: 100%;
+		}
+		footer {
+			background-color: #232f3e;
+			width: 100%;
+			display: flex;
+			padding: 20px;
+			box-sizing: border-box
+		}
+		.footercolumn{
+			width: 21%;
+			margin: 2%;
+			color: white;
+			font-size: 16px;
 		}
 
 	</style>
@@ -196,8 +224,41 @@
 		<div class="promocontent"><img src="img/clothes/clothes6.jpg" alt="Clothes Promotion"></div>
 		<div class="promocontent"><img src="img/clothes/clothes7.jpg" alt="Clothes Promotion"></div>
 		<div class="promocontent"><img src="img/clothes/clothes8.jpg" alt="Clothes Promotion"></div>
-		<div class="promocontent"><img src="img/clothes/clothes9.jpg" alt="Clothes Promotion"></div>
 	</div>
+
+	<div class="promoflex">
+		<div class="promoBoxSquare">
+			<h2>Stark reduzierte Produkte aus allen Kategorien</h2>
+			<img src="img/columns/square1.jpg" alt="square">
+		</div>
+		<div class="promoBoxSquare">
+			<h2>Stark reduzierte Produkte aus allen Kategorien</h2>
+			<img src="img/columns/sqaure2.jpg" alt="square">
+		</div>
+		<div class="promoBoxSquare">
+			<h2>Stark reduzierte Produkte aus allen Kategorien</h2>
+			<img src="img/columns/square5.jpg" alt="square">
+		</div>
+	</div>
+
+	<div class="promoBoxWide">
+		<div class="promocontent"><img src="img/clothes/clothes1.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes2.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes3.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes4.jpg" alt="Clothes Promotion">0</div>
+		<div class="promocontent"><img src="img/clothes/clothes5.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes6.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes7.jpg" alt="Clothes Promotion"></div>
+		<div class="promocontent"><img src="img/clothes/clothes8.jpg" alt="Clothes Promotion"></div>
+	</div>
+
+	<footer>
+		<div class="footercolumn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+		<div class="footercolumn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+		<div class="footercolumn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+		<div class="footercolumn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
+	</footer>
+
 </div>
 
 </body>
