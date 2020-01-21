@@ -1,0 +1,49 @@
+$break-small: 576px
+$break-medium: 768px
+
+#container
+	width: 900px
+	margin: 0 auto
+	padding: 10px
+
+body
+	font-family: 'Bangers', cursive
+
+header
+	display: flex
+	font-size: 4rem
+	color: gray
+
+main 
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-around
+
+.photo
+	width: 30%
+
+.photo img
+	width: 100%
+
+@media screen and (max-width: $break-small)
+	#container
+		width: 100%
+		margin: 0
+
+	header
+		display: flex
+		font-size: 2rem
+		color: gray
+
+	main
+		display: block
+
+	.photo
+		width: 100%
+
+	#logoarea
+		width: 150px
+
+	#logoarea img
+		width: 100%
+
