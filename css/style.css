@@ -1,0 +1,44 @@
+#container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px; }
+
+#logoarea {
+  width: 120px; }
+
+#logoarea img {
+  width: 100%; }
+
+#headline {
+  width: 400px;
+  padding: 20px; }
+
+body {
+  background-color: lightblue; }
+
+.resource {
+  display: flex;
+  margin-bottom: 10px; }
+
+.imgcol {
+  width: 200px; }
+
+.imgcol img {
+  width: 100%;
+  border-radius: 8px; }
+
+.descrcol {
+  width: 600px;
+  padding: 20px; }
+
+.descrcol h2 {
+  line-height: 0.4rem; }
+
+/*# sourceMappingURL=style.css.map */
